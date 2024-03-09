@@ -1,0 +1,52 @@
+useCallback 
+useMemo 
+useEffect 
+
+reduxjs toolkit 
+
+Custom CSS component -
+Button 
+=========================================
+context -> react API 
+
+redux 
+reduxjs toolkit 
+
+npm i react-redux 
+1. dispatch (useDispatch hooks)
+2. select (useSelector hooks )
+
+
+npm i @reduxjs/toolkit 
+
+data flow -
+1. store 
+2. action
+3. reducer
+4. state (data)
+
+5. view (react)
+
+person ----> parcel------>deliver---->priya ma'am------->drawer 
+view          state       action      read (reducer)     store
+
+cake shop  / ice cream shop -> 
+cake shelf - store 
+shopkeeper -reducer
+customer - view
+cakes/muffins/cupcakes/chocolates/bread - state (Data)
+
+customer----> BUY_CAKE ---->shopkeeper-------> cake shelf
+view     dispatch action         reducer            store
+			(nutella cake - state)
+
+cake shelf---------> customer 
+           select
+
+dealer ----> SELL_CAKE ---> shopkeeper ------> cake shelf
+
+useDispatch hook - to dispatch an action
+useSelector hook -  get state from store and send to view
+
+single source of truth - only 1 store 
+pure functions (reducers)
